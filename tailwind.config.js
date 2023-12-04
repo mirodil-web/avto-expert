@@ -6,9 +6,19 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'montserrat': ['Montserrat', 'sans-serif']
+      'montserrat': ['Montserrat', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      maxWidth: {
+        '1440px': '1440px',
+      },
+      backgroundColor: {
+        '#FFFFFF': '#FFFFFF',
+      },
+      padding: {
+        '20px': '20px',
+      },
+    },
   },
   plugins: [],
 }
